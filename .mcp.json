@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "nocthost": {
+      "url": "https://mcp.nocthost.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${NOCTHOST_API_KEY}"
+      }
+    }
+  }
+}

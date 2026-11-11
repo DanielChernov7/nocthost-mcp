@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.nocthost/mcp",
+  "title": "NoctHost",
+  "description": "Create, list and destroy hourly-billed servers on Vultr, DigitalOcean, Hetzner and Linode.",
+  "version": "1.0.0",
+  "websiteUrl": "https://nocthost.com/docs/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nocthost.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "NoctHost API key, created in the dashboard under Profile, API keys.",
+          "isRequired": true,
+          "isSecret": true,
+          "value": "Bearer {api_key}",
+          "variables": {
+            "api_key": {
+              "description": "API key starting with nh_ (Profile, API keys at nocthost.com).",
+              "isRequired": true,
+              "isSecret": true,
+              "placeholder": "nh_..."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
