@@ -2,7 +2,7 @@
 
 Create, list, reboot and destroy cloud servers from an AI assistant.
 
-NoctHost gives you one account, one prepaid balance and one API for servers on Vultr, DigitalOcean, Hetzner and Linode, plus NVIDIA GPU servers on OVHcloud. Servers are billed by the hour. This is the configuration for its hosted MCP server.
+NoctHost gives you one account, one prepaid balance and one API for servers on Hetzner, Vultr, DigitalOcean, Linode and OVHcloud, plus bare metal on Cherry Servers, including NVIDIA GPU servers. Servers are billed by the hour. This is the configuration for its hosted MCP server.
 
 - Endpoint: `https://mcp.nocthost.com/mcp` (Streamable HTTP)
 - Auth: `Authorization: Bearer nh_...` (API key from the dashboard: Profile, API keys)
